@@ -1,0 +1,1 @@
+module.exports = { appName: 'Employee Management', port: 3000 };

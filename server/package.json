@@ -1,0 +1,19 @@
+{
+      "name": "employee-management-backend",
+      "version": "1.0.0",
+      "main": "app.js",
+      "scripts": {
+            "start": "cross-env NODE_ENV=production node app.js",
+            "dev": "cross-env NODE_ENV=development nodemon app.js",
+            "staging": "cross-env NODE_ENV=staging node app.js"
+      },
+      "dependencies": {
+            "dotenv": "^16.4.5",
+            "express": "^4.21.0",
+            "mongoose": "^8.6.2",
+            "nodemon": "^3.1.4"
+      },
+      "devDependencies": {
+            "cross-env": "^7.0.3"
+      }
+}
