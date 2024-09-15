@@ -1,1 +1,5 @@
-module.exports = { dbUri: 'mongodb://localhost:27017/dev_db' };
+module.exports = {
+    appName: 'Employee Management',
+    port: process.env.PORT,
+    dbUri: process.env.DATABASE_URL
+};
